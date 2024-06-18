@@ -24,7 +24,7 @@ public class UserPage {
         driver.findElement(By.xpath("//input[@class=\"el-input__inner\"]")).clear();                        //清空值
         driver.findElement(By.xpath("//input[@class=\"el-input__inner\"]")).sendKeys("商家234");//再赋值
         driver.findElement(By.xpath("//div[@class=\"el-radio-group\"]/label[1]")).click();
-        driver.findElement(By.xpath("//span[text()='确定']")).click();
+        driver.findElement(By.xpath("//span[text()='确定']")).click();//deng
 
     }
 
